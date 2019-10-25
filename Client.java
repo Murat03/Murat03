@@ -4,7 +4,7 @@ package veri.iletişimi.ödevi.pkg2;
 import java.io.*;
 import java.net.Socket;
 
-public class VeriIletişimiÖdevi2 {
+public class Client {
 
     public static void main(String[] args) throws IOException {
         Socket sock = new Socket("127.0.0.1", 300);
